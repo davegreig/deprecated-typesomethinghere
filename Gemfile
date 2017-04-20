@@ -40,6 +40,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'puma'
 gem 'figaro'
+gem 'pg'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -52,7 +53,7 @@ group :development do
   gem 'capistrano3-puma'
   gem 'capistrano-rails', require: false
   gem 'capistrano-bundler', require: false
-  gem 'capistrano-rvm'
+  gem 'capistrano-rbenv', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
