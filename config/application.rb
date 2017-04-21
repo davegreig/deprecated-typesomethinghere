@@ -5,6 +5,7 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+config.assets.precompile += Ckeditor.assets
 
 module Typesomethinghere
   class Application < Rails::Application
