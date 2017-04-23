@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81876a78-c513-4316-a051-0a3676389b3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -77,21 +72,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/projects.scss">
+      <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/ckeditor/config.js">
+      <file leaf-file-name="Capfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -100,28 +105,18 @@
       <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="210">
               <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state relative-caret-position="15">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -173,7 +168,6 @@
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/config/deploy/production.rb" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/posts.coffee" />
@@ -184,6 +178,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -394,6 +389,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typesomethinghere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typesomethinghere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deploy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -805,12 +818,12 @@
       <workItem from="1490353475470" duration="1941000" />
       <workItem from="1490685730714" duration="553000" />
       <workItem from="1490961154691" duration="312000" />
-      <workItem from="1492252375021" duration="51774000" />
+      <workItem from="1492252375021" duration="51886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54580000" />
+    <option name="totallyTimeSpent" value="54692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1071,14 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1091,14 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1131,14 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1179,14 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1251,6 +1232,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>
