@@ -15,3 +15,58 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+.navbar {
+  background-color: #272822;
+  color: #c9f2f7;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #a1e22e;
+  text-transform: uppercase;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #f2265e;
+}
+
+.navbar-default .navbar-brand {
+  font-family: "Monaco", "Courier New", serif;
+  color: #64d9ef;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand > a:hover, a:focus {
+  color: #f17622;
+}
+
+.navbar-default .blinker {
+  color: #71715e;
+}
+
+.navbar-default .caret-decoration {
+  color: #f17622;
+}
+.navbar-default .caret-decoration .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #f17622;
+}
