@@ -1,19 +1,15 @@
 <div class="container">
   <div class="col-sm-10 col-sm-offset-1 col-xs-12">
     <% @posts.each do |post| %>
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 text-center blog-post">
           <div class="text-center">
             <h2><%= post.title %></h2>
             <h6><%= post.created_at.strftime('%b %d, %Y') %></h6>
           </div>
-          <div>
-            <%= raw(post.body).truncate(358) %>
+          <div class="blog-post-content">
+            <%= raw(post.body).truncate(300) %>
           </div>
-          <div class="text-center">
-            <%= link_to "READ MORE", post_path(post) %>
-          </div>
-              <%= link_to "Show", post_path(post), class: "btn btn-primary" %>
-          <hr />
+              <p><%= link_to "Read More", post_path(post), class: "btn btn-primary" %></p>
         </div>
     <% end %>
   </div>

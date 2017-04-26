@@ -37,6 +37,8 @@
 .navbar {
   background-color: #272822;
   color: #c9f2f7;
+  border-radius: 0px;
+  font-family: "Monaco", "Courier New", serif;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -69,4 +71,50 @@
 }
 .navbar-default .caret-decoration .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #f17622;
+}
+
+.btn-primary {
+  color: #a1e22e;
+  border-color: #a1e22e;
+  background-color: #ffffff;
+}
+
+.btn-primary:hover {
+  color: #f2265e;
+  border-color: #f2265e;
+  background-color: inherit;
+}
+
+.btn-primary:focus {
+  color: #f2265e;
+  border-color: #f2265e;
+  background-color: inherit;
+}
+
+.btn-primary:active:focus{
+  color: #f2265e;
+  border-color: #f2265e;
+  background-color: inherit;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 2px 20px;
+  font-family: "Monaco", "Courier New", serif;
+  text-transform: uppercase;
+}
+
+.body {
+  background-color: #dddddd;
+}
+
+.blog-post {
+  border: solid;
+  border-width: 1px;
+  border-color: #2E2F30;
+  margin-top: 10px;
+}
+
+.blog-post-content {
+  text-align: justify;
 }

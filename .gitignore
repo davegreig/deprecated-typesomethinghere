@@ -15,4 +15,7 @@
 /log/*
 !/log/.keep
 /tmp
-/.idea/*
+.idea/**
+
+# Ignore all uploaded test files
+/public/uploads/**
