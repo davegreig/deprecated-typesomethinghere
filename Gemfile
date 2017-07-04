@@ -42,6 +42,8 @@ gem 'puma'
 gem 'figaro'
 gem 'pg'
 
+gem 'html_truncator'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
