@@ -9,7 +9,6 @@
           </div>
           <div class="blog-post-content">
             <%= raw HTML_Truncator.truncate(post.body, 100) %>
-
           </div>
               <p><%= link_to "Read More", post_path(post), class: "btn btn-primary" %></p>
         </div>
