@@ -8,8 +8,8 @@
             <h6><%= post.created_at.strftime('%b %d, %Y') %></h6>
           </div>
           <div class="blog-post-content">
-            <% blurb = HTML_Truncator.truncate(post.body, 100) %>
-            <%= raw blurb %>
+            <%= raw HTML_Truncator.truncate(post.body, 100) %>
+
           </div>
               <p><%= link_to "Read More", post_path(post), class: "btn btn-primary" %></p>
         </div>
