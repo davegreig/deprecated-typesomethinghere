@@ -3,7 +3,7 @@ class PostsController < ApplicationController
 
   # Index action to render all posts
   def index
-    @posts = Post.all.order(created_at: :desc)
+    @posts = Post.all.order(created_at: :desc).paginate(:page => params[:page])
   end
 
   # New action for creating post
