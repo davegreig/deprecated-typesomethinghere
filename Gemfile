@@ -43,6 +43,7 @@ gem 'figaro'
 gem 'pg'
 
 gem 'html_truncator'
+gem 'will_paginate'
 
 group :development, :test do
   gem 'rspec-rails'
