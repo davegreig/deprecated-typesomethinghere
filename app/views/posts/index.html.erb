@@ -1,7 +1,6 @@
 <% require 'html_truncator' %>
 <div class="container">
   <div class="col-sm-10 col-sm-offset-1 col-xs-12">
-    <%= will_paginate @posts %>
     <% @posts.each do |post| %>
         <div class="col-xs-12 text-center blog-post">
           <div class="text-center">
@@ -14,5 +13,9 @@
               <p><%= link_to "Read More", post_path(post), class: "btn btn-primary" %></p>
         </div>
     <% end %>
+
+  </div>
+  <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+  <%= will_paginate @posts, class:"pagination-link", previous_label:"<", next_label:">" %>
   </div>
 </div>

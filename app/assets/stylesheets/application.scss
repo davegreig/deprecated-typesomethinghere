@@ -108,13 +108,29 @@
   background-color: #dddddd;
 }
 
-.blog-post {
-  border: solid;
-  border-width: 1px;
-  border-color: #2E2F30;
-  margin-top: 10px;
-}
+.pagination-link {
+  padding-top: 5px;
+  em {
+    color: #a1e22e;
+    font-style: normal;
+    font-weight: bold;
+  }
+  a {
+    color: #a1e22e;
+    text-decoration: none;
+    border-color: #f2265e;
+  }
+  a:hover{
+    color: #f2265e;
+  }
 
-.blog-post-content {
-  text-align: justify;
+  .next_page {
+    color: #71715e;
+  }
+  .previous_page {
+    color: #71715e;
+  }
+  .disabled {
+    display: none;
+  }
 }
