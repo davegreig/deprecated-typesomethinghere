@@ -19,3 +19,6 @@
 
 # Ignore all uploaded test files
 /public/uploads/**
+
+# Ignore stupid .idea files
+.idea/*
