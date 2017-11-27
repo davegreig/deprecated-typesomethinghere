@@ -76,4 +76,11 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Override host name in prod because we're using cloudfront
+  config.action_controller.default_url_options = { host: 'typesomethinghere.com' }
+
+  # Raises error for missing translations
+  # config.action_view.raise_on_missing_translations = true
+  config.action_mailer.default_url_options = { host: 'typesomethinghere.com,' }
 end
